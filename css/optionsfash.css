@@ -1,0 +1,4885 @@
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "opensans-regular";
+  src: url("../fonts/opensans-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "montserratlight";
+  src: url("../fonts/montserratlight.woff") format("woff");
+}
+@font-face {
+  font-family: "OpenSansItalic";
+  src: url("../fonts/OpenSansItalic.woff") format("woff");
+}
+* {
+  scroll-behavior: smooth !important;
+}
+.container-fluid {
+  position: relative !important;
+  margin: 0 auto !important;
+  max-width: 1920px !important;
+  max-height: 100% !important;
+}
+.container-fluid .lineheader {
+  background: #e8e5e5;
+  opacity: 0.9;
+  width: 100%;
+  height: 110px;
+  max-width: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  position: fixed;
+  top: -1px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+.container-fluid .lineheader .fashlogo h3 {
+  color: #000000 !important;
+  font: 28.3px Montserrat-ExtraBold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: fashlogo 4s;
+          animation: fashlogo 4s;
+}
+.container-fluid .lineheader .fashlogo h6 {
+  color: #000000;
+  font: 12px Montserrat-Regular;
+  line-height: 0px;
+  letter-spacing: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: fashlogo 4s;
+          animation: fashlogo 4s;
+}
+.fashmenu span ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px;
+}
+.fashmenu span ul li {
+  list-style-type: none;
+}
+.fashmenu span ul li a {
+  margin: 20px;
+  color: #000000;
+  font: 16px montserrat;
+  text-decoration: none;
+  -webkit-transition: 6s !important;
+  transition: 6s !important;
+}
+.fashmenu span ul li a:hover {
+  -webkit-transition: 0.67s !important;
+  transition: 0.67s !important;
+  border-bottom: 5px solid #000000;
+  padding-bottom: 3px;
+}
+.fushheadericon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 8px;
+}
+.fushheadericon ul li {
+  list-style-type: none;
+}
+.fushheadericon ul li a {
+  text-decoration: none;
+  margin: 9px;
+}
+.fonheader {
+  background: url('../images/fashionfon-1.jpg') no-repeat;
+  background-size: 100% 100% !important;
+  height: 1000px;
+  margin-top: 106px;
+  position: relative;
+}
+.fonheader .col-md-1 {
+  position: absolute;
+  left: 0;
+  margin-left: -15px;
+  z-index: 1;
+}
+.fonheader .col-md-1 ul {
+  position: absolute;
+  top: 300px;
+  right: 47.5px;
+  line-height: 50px;
+  z-index: 2;
+}
+.fonheader .col-md-1 ul li {
+  list-style-type: none;
+}
+.fonheader .col-md-1 .angle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 63px !important;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  margin: -430px auto;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.fonheader .col-md-1 .angle a {
+  text-decoration: none;
+  font: 14px Montserrat-SemiBold;
+  color: #000000;
+}
+.textheader {
+  margin: 0 auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+.textheader .animart {
+  font: 69.74px Montserrat-SemiBold;
+  color: #171717;
+  height: 610px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animart 4s;
+          animation: animart 4s;
+}
+.textheader span {
+  z-index: 1;
+}
+.textheader span .arttext {
+  color: #e2e4e5;
+}
+.textheader span a {
+  color: #171717;
+  position: relative;
+  right: 140px;
+  top: 236px;
+  white-space: normal;
+  text-decoration: none;
+  letter-spacing: 12px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.textheader span a img {
+  margin: 0 auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+.textheader span .arttext:hover {
+  color: #313a40;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.textheader p {
+  position: absolute;
+  bottom: 355px;
+  text-align: left !important;
+  font: 18px montserrat;
+  width: 47%;
+}
+.textheader p b {
+  font-size: 22px;
+}
+.textheader p a img {
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  border: 2.1px solid #000000;
+}
+.textheader p a img:hover {
+  background: #000000;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.textheader p span {
+  float: left !important;
+  font: 14px opensans-regular;
+}
+.textheader p a button {
+  margin-top: 15px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+}
+.textheader p button:hover {
+  color: #e2e4e5;
+  font: bold 12px Montserrat-Regular;
+}
+@-webkit-keyframes animart {
+  from {
+    opacity: -0.1;
+    letter-spacing: -50px;
+    text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes animart {
+  from {
+    opacity: -0.1;
+    letter-spacing: -50px;
+    text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fashlogo {
+  from {
+    opacity: -0.1;
+    letter-spacing: -50px;
+    text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fashlogo {
+  from {
+    opacity: -0.1;
+    letter-spacing: -50px;
+    text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.feshslide {
+  position: relative !important;
+  bottom: 370px;
+}
+.feshslide .fon {
+  margin: 0px !important;
+  padding: 0px !important;
+  height: 370px;
+}
+.feshslide .fon img {
+  max-width: 50% !important;
+}
+.fashmenu-2 .col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.fashmenu-2 .col-md-12 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 260px;
+}
+.fashmenu-2 .col-md-12 ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+.fashmenu-2 .col-md-12 ul li a {
+  text-decoration: none;
+  font: 18.94px Montserrat-SemiBold;
+  color: #2d2b27;
+}
+.fashmenu-2 .col-md-12 ul li a:hover {
+  -webkit-transition: 0.67s !important;
+  transition: 0.67s !important;
+  border-bottom: 5px solid black;
+  padding-bottom: 3px;
+}
+.newsblock .col-md-12 .newitems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.newsblock .col-md-12 .newitems .card-block-1 {
+  border: 2px solid black;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+  width: 20%;
+}
+.newsblock .col-md-12 .newitems .card-block-2 {
+  border: 2px solid black;
+  width: 60%;
+}
+.newsblock .col-md-12 .newitems .card-block-3 {
+  width: 20%;
+  border: 2px solid black;
+  height: 500px;
+}
+.container {
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*Центр по главной оси*/
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /*Центр по вспомогательной оси*/
+  position: relative;
+  bottom: 260px;
+  width: 100%;
+  margin: 0 auto !important;
+}
+.container .block1 {
+  width: 25%;
+}
+.container .block1 div {
+  position: absolute;
+  top: 239px;
+  left: 65px;
+  font: 26px Montserrat-Bold;
+  color: #2d2b27;
+}
+.container .block1 img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px 20px 10px 0px;
+}
+.container .block1 .stek {
+  width: 100%;
+  height: 183px;
+}
+.container .block2 {
+  width: 50%;
+  position: relative !important;
+}
+.container .block2 div {
+  position: absolute;
+  top: 100px;
+  left: 65px;
+  font: 26px Montserrat-Bold;
+  color: #2d2b27;
+}
+.container .block2 div p {
+  font: 16px Montserrat-Bold;
+  color: #2d2b27;
+  position: relative;
+  top: 30px;
+}
+.container .block2 span {
+  width: 100% !important;
+  background: url('../images/new.png') no-repeat;
+  height: 50px;
+  color: transparent;
+  position: absolute;
+  left: 475px;
+  top: 40px;
+}
+.container .block2 img {
+  width: 100%;
+  height: 512px;
+  padding: 10px 0px;
+}
+.container .block2 a button {
+  margin-top: 15px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  position: absolute;
+  left: 67px;
+  bottom: 233px;
+}
+.container .block3 {
+  width: 25%;
+}
+.container .block3 img {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px 10px 20px;
+}
+.container .fashbord {
+  width: 100%;
+  height: 400px;
+  background: url('../images/fashionfon-2.jpg') no-repeat;
+  margin: 0 auto;
+  margin-bottom: 400px;
+}
+.container .fashbord .col-md-12 {
+  text-align: center;
+}
+.container .fashbord .col-md-12 h3 {
+  color: #2d2b27;
+  font: 26px Montserrat-SemiBold;
+}
+.container .fashbord .col-md-12 h6 {
+  color: #2d2b27;
+  font: 14px Montserrat-Regular;
+}
+.container .fashbord .col-md-12 a button {
+  width: 245px;
+  height: 60px;
+  color: #e8e5e5;
+  font: 12px Montserrat-Regular;
+  border: 3px solid #000000;
+  border-radius: 33px 33px;
+  background: #000000;
+}
+.container .fashbord .col-md-12 a button:hover {
+  background: transparent;
+  color: #000000;
+  font-weight: bold;
+  border: 3px solid #000000;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.fashmenu-3 .col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: 3;
+}
+.fashmenu-3 .col-md-12 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 35px;
+}
+.fashmenu-3 .col-md-12 ul li {
+  list-style-type: none;
+}
+.fashmenu-3 .col-md-12 ul li a {
+  text-decoration: none;
+  font: 18.94px Montserrat-SemiBold;
+  color: #2d2b27;
+  margin: 20px;
+}
+.fashmenu-3 .col-md-12 ul li a:hover {
+  -webkit-transition: 0.67s !important;
+  transition: 0.67s !important;
+  border-bottom: 5px solid #000000;
+  padding-bottom: 3px;
+}
+.menutext .col-md-12 h4 {
+  text-align: center;
+  margin-bottom: 70px;
+  font: 26px Montserrat-SemiBold;
+  color: #2d2b27;
+}
+.discounttext {
+  position: absolute;
+  right: 9.14px;
+  bottom: 240px;
+  font: 37.66px Montserrat-ExtraBold;
+  color: #ffffff;
+}
+.discounttext h5 {
+  font: 20.89px opensans-regular;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  left: 545px;
+  top: 245px;
+  text-align: center;
+  z-index: 1;
+}
+.countdown .discounts {
+  position: absolute;
+  right: 9.14px;
+  bottom: 420px;
+}
+.countdown .discounts b s {
+  font: 21.86px Montserrat-Regular;
+  color: #ffffff;
+}
+.countdown .discounts b {
+  font: 38.26px Montserrat-Bold;
+  color: #ffffff;
+}
+.countdown .discounts a {
+  text-decoration: none;
+  outline: none;
+}
+.countdown .discounts a button {
+  width: 125px;
+  height: 45px;
+  background: #000000;
+  font: 12px Montserrat-Regular;
+  color: #e8e5e5;
+  border: 3px solid #000000;
+  border-radius: 22px 22px;
+  outline: none;
+}
+.countdown .discounts button:hover {
+  background: transparent;
+  color: #000000;
+  font-weight: bold;
+  -webkit-transition: 0.86s;
+  transition: 0.86s;
+}
+.countdown .countdown-number {
+  background: #ffffff;
+  width: 82px;
+  margin: 10px;
+  height: 80px;
+  border-radius: 17px 17px;
+}
+.countdown .countdown-number .countdown-time {
+  font: 38.22px Montserrat-SemiBold;
+}
+.countdown .countdown-number .countdown-time .countdown-text {
+  font: 11.04px Montserrat-SemiBold;
+}
+.fashfirstslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 2220px;
+}
+.fashfirstslider .col-md-12 h4 {
+  font: 26px Montserrat-SemiBold;
+  color: #2d2b27;
+  line-height: 5px;
+}
+.fashfirstslider .col-md-12 h6 {
+  letter-spacing: 3px;
+  font: 14px Montserrat-Regular;
+  color: #2d2b27;
+  line-height: 5px;
+}
+.fashfirstslider .col-md-12 {
+  text-align: center;
+}
+.fashfirstslider .col-md-12 section .slimage-1 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-1 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-1 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-1 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-2 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-2 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-2 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-2 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-3 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-3 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-3 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-3 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-4 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-4 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-4 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-4 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-5 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-5 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-5 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-5 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-6 {
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-6 a {
+  outline: none;
+}
+.fashfirstslider .col-md-12 section .slimage-6 a button {
+  margin-top: -122px;
+  text-decoration: none !important;
+  background: #000000;
+  border: 3px solid #000000;
+  border-radius: 30px 30px;
+  color: #d3d3d3;
+  font: 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashfirstslider .col-md-12 section .slimage-6 a button:hover {
+  background: transparent;
+  border-radius: 30px 30px;
+  color: #000000;
+  border: 3px solid #000000;
+  font: bold 12px Montserrat-Regular;
+  max-width: 100%;
+  height: auto;
+}
+.fashsecondslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+.fashsecondslider .col-md-12 {
+  text-align: center;
+}
+.fashsecondslider .col-md-12 section .slimage-1 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-1 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-1 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-1 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-1 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-1 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-1 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-2 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-2 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-2 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-2 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-2 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-2 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-2 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-3 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-3 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-3 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-3 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-3 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-3 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-3 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-4 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-4 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-4 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-4 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-4 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-4 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-4 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-5 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-5 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-5 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-5 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-5 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-5 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-5 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-6 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-6 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-6 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-6 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-6 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-6 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-6 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-7 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-7 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-7 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-7 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-7 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-7 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-7 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.fashsecondslider .col-md-12 section .slimage-8 {
+  text-align: left !important;
+}
+.fashsecondslider .col-md-12 section .slimage-8 a {
+  outline: none;
+}
+.fashsecondslider .col-md-12 section .slimage-8 a img:hover {
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+  opacity: 0.69;
+}
+.fashsecondslider .col-md-12 section .slimage-8 p {
+  font-weight: bold;
+}
+.fashsecondslider .col-md-12 section .slimage-8 p b {
+  font: bold 19px montserrat;
+  letter-spacing: 0.2px;
+}
+.fashsecondslider .col-md-12 section .slimage-8 p span {
+  font: bold 15px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 3px;
+}
+.fashsecondslider .col-md-12 section .slimage-8 p s {
+  font: bold 19px opensans-regular;
+  color: #c9c9c9;
+  letter-spacing: 2.5px;
+}
+.contentbut a {
+  -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  display: block;
+  margin: 20px auto;
+  max-width: 173px;
+  text-decoration: none;
+  border-radius: 32px;
+  padding: 20px 30px;
+  font: bold 14px Montserrat-Regular;
+  letter-spacing: 0px;
+}
+.contentbut a.button {
+  color: #000000;
+  -webkit-box-shadow: #d9c8aa 0 0px 0px 3px inset;
+          box-shadow: #d9c8aa 0 0px 0px 3px inset;
+}
+.contentbut a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  -webkit-box-shadow: #000000 0 0px 0px 40px inset;
+          box-shadow: #000000 0 0px 0px 40px inset;
+}
+.fashboard-3 {
+  height: 230px !important;
+  margin-top: 30px;
+}
+.fashboard-3 .col-md-10 {
+  background: url('../images/fashbord-2.jpg') no-repeat !important;
+  padding: 0px 0px;
+  height: auto !important;
+}
+.fashboard-3 .col-md-10 .fonboard {
+  width: 100%;
+  height: 230px;
+  background: rgba(95, 97, 102, 0.69);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.fashboard-3 .col-md-10 .fonboard span {
+  margin-left: 45px;
+  text-align: center;
+  line-height: 1px !important;
+}
+.fashboard-3 .col-md-10 .fonboard span h4 {
+  color: #2d2b27;
+}
+.fashboard-3 .col-md-10 .fonboard span a {
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #171717;
+  border-radius: 32px 32px;
+  background: #171717;
+  text-decoration: none;
+  color: #ffffff;
+  font: 14.24px Montserrat-Regular;
+  text-align: center;
+}
+.fashboard-3 .col-md-10 .fonboard span p {
+  font: 600 16.21px Montserrat-Regular;
+  letter-spacing: 1.4px;
+  line-height: 56px !important;
+  color: #1a1a1a;
+}
+.fashboard-3 .col-md-10 .fonboard span a:hover {
+  background-position: 0 0;
+  background: rgba(95, 97, 102, 0);
+  -webkit-transition: 0.67s;
+  transition: 0.67s;
+  color: #000000;
+  font: bold 14.24px Montserrat-Regular;
+}
+.fashboard-3 .fonboard:hover {
+  background: rgba(93, 105, 136, 0);
+  color: #000000;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.fashthirdslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 3900px;
+}
+.fashthirdslider .col-md-12 {
+  text-align: center;
+}
+.fashthirdslider .col-md-12 h4 {
+  color: #2d2b27;
+  font: 600 26px Montserrat-SemiBold;
+  margin-top: 70px;
+  letter-spacing: 2px;
+  line-height: 1px;
+}
+.fashthirdslider .col-md-12 section .slimage1,
+.fashthirdslider .col-md-12 section .slimage2,
+.fashthirdslider .col-md-12 section .slimage3,
+.fashthirdslider .col-md-12 section .slimage4 {
+  width: 100%;
+}
+.fashthirdslider .col-md-12 section .slimage1 p,
+.fashthirdslider .col-md-12 section .slimage2 p,
+.fashthirdslider .col-md-12 section .slimage3 p,
+.fashthirdslider .col-md-12 section .slimage4 p {
+  outline: none;
+  width: 75%;
+  height: auto;
+  background: #ffffff;
+  margin: 0 auto;
+  font: 17.79px Montserrat-SemiBold;
+  position: relative;
+  bottom: 35px;
+  letter-spacing: 0.2px;
+}
+.fashthirdslider .col-md-12 section .slimage1 span,
+.fashthirdslider .col-md-12 section .slimage2 span,
+.fashthirdslider .col-md-12 section .slimage3 span,
+.fashthirdslider .col-md-12 section .slimage4 span {
+  font: 14px OpenSansItalic;
+  color: #929292;
+  line-height: 35px;
+}
+.fashthirdslider .col-md-12 section .slimage1 p:hover,
+.fashthirdslider .col-md-12 section .slimage2 p:hover,
+.fashthirdslider .col-md-12 section .slimage3 p:hover,
+.fashthirdslider .col-md-12 section .slimage4 p:hover {
+  color: #5e5e5e !important;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.fashthirdslider .col-md-12 section .slimage1 .increase,
+.fashthirdslider .col-md-12 section .slimage2 .increase,
+.fashthirdslider .col-md-12 section .slimage3 .increase,
+.fashthirdslider .col-md-12 section .slimage4 .increase {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.fashthirdslider .col-md-12 section .slimage1 .increase:hover,
+.fashthirdslider .col-md-12 section .slimage2 .increase:hover,
+.fashthirdslider .col-md-12 section .slimage3 .increase:hover,
+.fashthirdslider .col-md-12 section .slimage4 .increase:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.fashfooter {
+  margin-top: 760px;
+  background: #f7f7f7;
+}
+.fashfooter .col-md h4 {
+  text-align: center;
+  font: 15px Montserrat-Bold;
+  line-height: 40px;
+}
+.fashfooter .col-md ul li {
+  list-style-type: none;
+  font: 14px montserratlight;
+  color: #727272;
+  line-height: 25px;
+}
+.fashfooter span {
+  font: 14px Times New Roman;
+}
+.fashfooter span p {
+  color: #afafaf;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  display: inline;
+}
+.fashfooter span .fontfooter {
+  color: #636363 !important;
+  font: bold 13px montserratlight;
+}
+.titlefooter .col-md-12 {
+  text-align: center;
+  margin-top: 120px;
+}
+.titlefooter .col-md-12 h6 {
+  font: 18px Times New Roman;
+  color: #727272;
+}
+.titlefooter .col-md-12 h3 a {
+  color: #000000;
+  font: 28.3px Montserrat-ExtraBold;
+  text-decoration: none;
+}
+.titlefooter .col-md-12 h5 {
+  font: bold 14px montserratlight;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.titlefooter h3:hover {
+  letter-spacing: 10px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  color: #3b3a3a;
+}
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+  * {
+    scroll-behavior: smooth !important;
+  }
+  .container-fluid {
+    position: relative !important;
+    margin: 0 auto !important;
+    max-width: 1025px !important;
+    max-height: 100% !important;
+    overflow-x: hidden;
+  }
+  .container-fluid .lineheader {
+    background: #e8e5e5;
+    opacity: 0.9;
+    width: 100%;
+    height: 110px;
+    max-width: inherit;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 2;
+    position: fixed;
+    top: -1px;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
+  .container-fluid .lineheader .fashlogo h3 {
+    color: #000000 !important;
+    font: 28.3px Montserrat-ExtraBold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .container-fluid .lineheader .fashlogo h6 {
+    color: #000000;
+    font: 12px Montserrat-Regular;
+    line-height: 0px;
+    letter-spacing: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .fashmenu span ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 10px;
+  }
+  .fashmenu span ul li {
+    list-style-type: none;
+  }
+  .fashmenu span ul li a {
+    margin: 20px;
+    color: #000000;
+    font: 16px montserrat;
+    text-decoration: none;
+    -webkit-transition: 6s !important;
+    transition: 6s !important;
+  }
+  .fashmenu span ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .fushheadericon ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fushheadericon ul li {
+    list-style-type: none;
+  }
+  .fushheadericon ul li a {
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .fonheader {
+    background: url('../images/fashionfon-1.jpg') no-repeat;
+    background-size: 100% 100% !important;
+    height: 1000px;
+    margin-top: 106px;
+    position: relative;
+  }
+  .fonheader .col-md-1 {
+    position: absolute;
+    left: 0;
+    margin-left: -15px;
+    z-index: 1;
+  }
+  .fonheader .col-md-1 ul {
+    position: absolute;
+    top: 300px;
+    right: 27.5px;
+    line-height: 50px;
+    z-index: 2;
+  }
+  .fonheader .col-md-1 ul li {
+    list-style-type: none;
+  }
+  .fonheader .col-md-1 .angle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 63px !important;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin: -430px auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .fonheader .col-md-1 .angle a {
+    text-decoration: none;
+    font: 14px Montserrat-SemiBold;
+    color: #000000;
+  }
+  .textheader {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .textheader .animart {
+    font: 59.74px Montserrat-SemiBold;
+    color: #171717;
+    height: 610px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-animation: animart 4s;
+            animation: animart 4s;
+  }
+  .textheader span {
+    z-index: 1;
+  }
+  .textheader span .arttext {
+    color: #e2e4e5;
+  }
+  .textheader span a {
+    color: #171717;
+    position: relative;
+    right: 100px;
+    top: 236px;
+    white-space: normal;
+    text-decoration: none;
+    letter-spacing: 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .textheader span a img {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .textheader span .arttext:hover {
+    color: #313a40;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .textheader p {
+    position: absolute;
+    bottom: 355px;
+    text-align: left !important;
+    font: 18px montserrat;
+    width: 47%;
+  }
+  .textheader p b {
+    font-size: 22px;
+  }
+  .textheader p a img {
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    border: 2.1px solid #000000;
+  }
+  .textheader p a img:hover {
+    background: #000000;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .textheader p span {
+    float: left !important;
+    font: 14px opensans-regular;
+  }
+  .textheader p a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+  }
+  .textheader p button:hover {
+    color: #e2e4e5;
+    font: bold 12px Montserrat-Regular;
+  }
+  @-webkit-keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .feshslide {
+    position: relative !important;
+    bottom: 370px;
+  }
+  .feshslide .fon {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 370px;
+  }
+  .feshslide .fon img {
+    max-width: 50% !important;
+  }
+  .fashmenu-2 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .fashmenu-2 .col-md-12 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 260px;
+  }
+  .fashmenu-2 .col-md-12 ul li {
+    list-style-type: none;
+    margin: 20px;
+  }
+  .fashmenu-2 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 18.94px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .fashmenu-2 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid black;
+    padding-bottom: 3px;
+  }
+  .newsblock .col-md-12 .newitems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-1 {
+    border: 2px solid black;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    width: 20%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-2 {
+    border: 2px solid black;
+    width: 60%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-3 {
+    width: 20%;
+    border: 2px solid black;
+    height: 500px;
+  }
+  .container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*Центр по главной оси*/
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /*Центр по вспомогательной оси*/
+    position: relative;
+    bottom: 260px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+  .container .block1 {
+    width: 25%;
+  }
+  .container .block1 div {
+    position: absolute;
+    top: 239px;
+    left: 65px;
+    font: 26px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block1 img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 20px 10px 0px;
+  }
+  .container .block1 .stek {
+    width: 100%;
+    height: 183px;
+  }
+  .container .block2 {
+    width: 50%;
+    position: relative !important;
+  }
+  .container .block2 div {
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    font: 26px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block2 div p {
+    font: 16px Montserrat-Bold;
+    color: #2d2b27;
+    position: relative;
+    top: 30px;
+  }
+  .container .block2 span {
+    width: 100% !important;
+    background: url('../images/new.png') no-repeat;
+    height: 50px;
+    color: transparent;
+    position: absolute;
+    left: 475px;
+    top: 40px;
+  }
+  .container .block2 img {
+    width: 100%;
+    height: 512px;
+    padding: 10px 0px;
+  }
+  .container .block2 a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    position: absolute;
+    left: 67px;
+    bottom: 233px;
+  }
+  .container .block3 {
+    width: 25%;
+  }
+  .container .block3 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 20px;
+  }
+  .container .fashbord {
+    width: 100%;
+    height: 400px;
+    background: url('../images/fashionfon-2.jpg') no-repeat;
+    margin: 0 auto;
+    margin-bottom: 400px;
+  }
+  .container .fashbord .col-md-12 {
+    text-align: center;
+  }
+  .container .fashbord .col-md-12 h3 {
+    color: #2d2b27;
+    font: 26px Montserrat-SemiBold;
+  }
+  .container .fashbord .col-md-12 h6 {
+    color: #2d2b27;
+    font: 14px Montserrat-Regular;
+  }
+  .container .fashbord .col-md-12 a button {
+    width: 245px;
+    height: 60px;
+    color: #e8e5e5;
+    font: 12px Montserrat-Regular;
+    border: 3px solid #000000;
+    border-radius: 33px 33px;
+    background: #000000;
+  }
+  .container .fashbord .col-md-12 a button:hover {
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+    border: 3px solid #000000;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fashmenu-3 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 3;
+  }
+  .fashmenu-3 .col-md-12 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 35px;
+  }
+  .fashmenu-3 .col-md-12 ul li {
+    list-style-type: none;
+  }
+  .fashmenu-3 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 18.94px Montserrat-SemiBold;
+    color: #2d2b27;
+    margin: 20px;
+  }
+  .fashmenu-3 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .menutext .col-md-12 h4 {
+    text-align: center;
+    margin-bottom: 70px;
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .discounttext {
+    position: absolute;
+    right: 9.14px;
+    bottom: 240px;
+    font: 37.66px Montserrat-ExtraBold;
+    color: #ffffff;
+  }
+  .discounttext h5 {
+    font: 20.89px opensans-regular;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .countdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    left: 545px;
+    top: 245px;
+    text-align: center;
+    z-index: 1;
+  }
+  .countdown .discounts {
+    position: absolute;
+    right: 129.14px;
+    bottom: 390px;
+  }
+  .countdown .discounts b s {
+    font: 21.86px Montserrat-Regular;
+    color: #ffffff;
+  }
+  .countdown .discounts b {
+    font: 38.26px Montserrat-Bold;
+    color: #ffffff;
+  }
+  .countdown .discounts a {
+    text-decoration: none;
+    outline: none;
+  }
+  .countdown .discounts a button {
+    width: 125px;
+    height: 45px;
+    background: #000000;
+    font: 12px Montserrat-Regular;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    border-radius: 22px 22px;
+    outline: none;
+  }
+  .countdown .discounts button:hover {
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+    -webkit-transition: 0.86s;
+    transition: 0.86s;
+  }
+  .countdown .countdown-number {
+    background: #ffffff;
+    width: 82px;
+    margin: 10px;
+    height: 80px;
+    border-radius: 17px 17px;
+    position: relative;
+    right: 120px;
+  }
+  .countdown .countdown-number .countdown-time {
+    font: 38.22px Montserrat-SemiBold;
+  }
+  .countdown .countdown-number .countdown-time .countdown-text {
+    font: 11.04px Montserrat-SemiBold;
+  }
+  .fashfirstslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 2220px;
+  }
+  .fashfirstslider .col-md-12 h4 {
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 h6 {
+    letter-spacing: 3px;
+    font: 14px Montserrat-Regular;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 {
+    text-align: center;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border: 3px solid #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashsecondslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+  }
+  .fashsecondslider .col-md-12 {
+    text-align: center;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .contentbut a {
+    -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    display: block;
+    margin: 20px auto;
+    max-width: 173px;
+    text-decoration: none;
+    border-radius: 32px;
+    padding: 20px 30px;
+    font: bold 14px Montserrat-Regular;
+    letter-spacing: 0px;
+  }
+  .contentbut a.button {
+    color: #000000;
+    -webkit-box-shadow: #d9c8aa 0 0px 0px 3px inset;
+            box-shadow: #d9c8aa 0 0px 0px 3px inset;
+  }
+  .contentbut a.button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    -webkit-box-shadow: #000000 0 0px 0px 40px inset;
+            box-shadow: #000000 0 0px 0px 40px inset;
+  }
+  .fashboard-3 {
+    height: 230px !important;
+    margin-top: 30px;
+  }
+  .fashboard-3 .col-md-10 {
+    background: url('../images/fashbord-2.jpg') no-repeat !important;
+    padding: 0px 0px;
+    height: auto !important;
+  }
+  .fashboard-3 .col-md-10 .fonboard {
+    width: 100%;
+    height: 230px;
+    background: rgba(95, 97, 102, 0.69);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fashboard-3 .col-md-10 .fonboard span {
+    margin-left: 45px;
+    text-align: center;
+    line-height: 1px !important;
+  }
+  .fashboard-3 .col-md-10 .fonboard span h4 {
+    color: #2d2b27;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid #171717;
+    border-radius: 32px 32px;
+    background: #171717;
+    text-decoration: none;
+    color: #ffffff;
+    font: 14.24px Montserrat-Regular;
+    text-align: center;
+  }
+  .fashboard-3 .col-md-10 .fonboard span p {
+    font: 600 16.21px Montserrat-Regular;
+    letter-spacing: 1.4px;
+    line-height: 56px !important;
+    color: #1a1a1a;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a:hover {
+    background-position: 0 0;
+    background: rgba(95, 97, 102, 0);
+    -webkit-transition: 0.67s;
+    transition: 0.67s;
+    color: #000000;
+    font: bold 14.24px Montserrat-Regular;
+  }
+  .fashboard-3 .fonboard:hover {
+    background: rgba(93, 105, 136, 0);
+    color: #000000;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3900px;
+  }
+  .fashthirdslider .col-md-12 {
+    text-align: center;
+  }
+  .fashthirdslider .col-md-12 h4 {
+    color: #2d2b27;
+    font: 600 26px Montserrat-SemiBold;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    line-height: 1px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1,
+  .fashthirdslider .col-md-12 section .slimage2,
+  .fashthirdslider .col-md-12 section .slimage3,
+  .fashthirdslider .col-md-12 section .slimage4 {
+    width: 100%;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p,
+  .fashthirdslider .col-md-12 section .slimage2 p,
+  .fashthirdslider .col-md-12 section .slimage3 p,
+  .fashthirdslider .col-md-12 section .slimage4 p {
+    outline: none;
+    width: 75%;
+    height: auto;
+    background: #ffffff;
+    margin: 0 auto;
+    font: 17.79px Montserrat-SemiBold;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 0.2px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 span,
+  .fashthirdslider .col-md-12 section .slimage2 span,
+  .fashthirdslider .col-md-12 section .slimage3 span,
+  .fashthirdslider .col-md-12 section .slimage4 span {
+    font: 14px OpenSansItalic;
+    color: #929292;
+    line-height: 35px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p:hover,
+  .fashthirdslider .col-md-12 section .slimage2 p:hover,
+  .fashthirdslider .col-md-12 section .slimage3 p:hover,
+  .fashthirdslider .col-md-12 section .slimage4 p:hover {
+    color: #5e5e5e !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase,
+  .fashthirdslider .col-md-12 section .slimage2 .increase,
+  .fashthirdslider .col-md-12 section .slimage3 .increase,
+  .fashthirdslider .col-md-12 section .slimage4 .increase {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage2 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage3 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage4 .increase:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .fashfooter {
+    margin-top: 760px;
+    background: #f7f7f7;
+  }
+  .fashfooter .col-md h4 {
+    text-align: center;
+    font: 15px Montserrat-Bold;
+    line-height: 40px;
+  }
+  .fashfooter .col-md ul li {
+    list-style-type: none;
+    font: 14px montserratlight;
+    color: #727272;
+    line-height: 25px;
+  }
+  .fashfooter span {
+    font: 14px Times New Roman;
+  }
+  .fashfooter span p {
+    color: #afafaf;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    display: inline;
+  }
+  .fashfooter span .fontfooter {
+    color: #636363 !important;
+    font: bold 13px montserratlight;
+  }
+  .titlefooter .col-md-12 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .titlefooter .col-md-12 h6 {
+    font: 18px Times New Roman;
+    color: #727272;
+  }
+  .titlefooter .col-md-12 h3 a {
+    color: #000000;
+    font: 28.3px Montserrat-ExtraBold;
+    text-decoration: none;
+  }
+  .titlefooter .col-md-12 h5 {
+    font: bold 14px montserratlight;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .titlefooter h3:hover {
+    letter-spacing: 10px;
+    -webkit-transition: 2s;
+    transition: 2s;
+    color: #3b3a3a;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 769px) {
+  * {
+    scroll-behavior: smooth !important;
+  }
+  .container-fluid {
+    max-width: 769px !important;
+    max-height: 100% !important;
+    overflow-x: hidden;
+  }
+  .container-fluid .lineheader {
+    background: #e8e5e5;
+    opacity: 0.9;
+    height: 110px;
+    width: 100%;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    position: fixed;
+    top: 0px;
+  }
+  .container-fluid .lineheader .fashlogo {
+    -webkit-transition: 1.4s;
+    transition: 1.4s;
+  }
+  .container-fluid .lineheader .fashlogo h3 {
+    color: #000000 !important;
+    font: 28.3px Montserrat-ExtraBold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .container-fluid .lineheader .fashlogo h6 {
+    color: #000000;
+    font: 12px Montserrat-Regular;
+    line-height: 0px;
+    letter-spacing: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .fashmenu span ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 10px;
+  }
+  .fashmenu span ul li {
+    list-style-type: none;
+  }
+  .fashmenu span ul li a {
+    margin: 20px;
+    color: #000000;
+    font: 13px montserrat;
+    text-decoration: none;
+    -webkit-transition: 0.6s !important;
+    transition: 0.6s !important;
+  }
+  .fashmenu span ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .fushheadericon ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    line-height: 35px;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    width: 100%;
+  }
+  .fushheadericon ul li {
+    list-style-type: none;
+  }
+  .fushheadericon ul li a {
+    text-decoration: none;
+    margin: 9px;
+  }
+  .fonheader {
+    background: url('../images/fashionfon-1.jpg') no-repeat;
+    background-size: 100% 100% !important;
+    height: 1000px;
+    margin-top: 106px;
+    position: relative;
+  }
+  .fonheader .col-md-1 {
+    position: absolute;
+    left: 0;
+    margin-left: -15px;
+    z-index: 1;
+  }
+  .fonheader .col-md-1 ul {
+    position: absolute;
+    top: 300px;
+    right: 7.5px;
+    line-height: 50px;
+    z-index: 2;
+  }
+  .fonheader .col-md-1 ul li {
+    list-style-type: none;
+  }
+  .fonheader .col-md-1 .angle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 63px !important;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin: -430px auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .fonheader .col-md-1 .angle a {
+    text-decoration: none;
+    font: 14px Montserrat-SemiBold;
+    color: #000000;
+  }
+  .textheader {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .textheader .animart {
+    font: 54.74px Montserrat-SemiBold;
+    color: #171717;
+    height: 610px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-animation: animart 4s;
+            animation: animart 4s;
+  }
+  .textheader span {
+    z-index: 1;
+  }
+  .textheader span .arttext {
+    color: #e2e4e5;
+  }
+  .textheader span a {
+    color: #171717;
+    position: relative;
+    right: 140px;
+    top: 236px;
+    white-space: normal;
+    text-decoration: none;
+    letter-spacing: 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .textheader span a img {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .textheader span .arttext:hover {
+    color: #313a40;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .textheader p {
+    position: absolute;
+    bottom: 355px;
+    text-align: left !important;
+    font: 18px montserrat;
+    width: 47%;
+  }
+  .textheader p b {
+    font-size: 22px;
+  }
+  .textheader p a img {
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    border: 2.1px solid #000000;
+  }
+  .textheader p a img:hover {
+    background: #000000;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .textheader p span {
+    float: left !important;
+    font: 14px opensans-regular;
+  }
+  .textheader p a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+  }
+  .textheader p button:hover {
+    color: #e2e4e5;
+    font: bold 12px Montserrat-Regular;
+  }
+  @-webkit-keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .feshslide {
+    position: relative !important;
+    bottom: 370px;
+    left: 0px;
+  }
+  .feshslide .fon {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 370px;
+  }
+  .feshslide .fon img {
+    max-width: 50% !important;
+  }
+  .fashmenu-2 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .fashmenu-2 .col-md-12 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 260px;
+  }
+  .fashmenu-2 .col-md-12 ul li {
+    list-style-type: none;
+    margin: 20px;
+  }
+  .fashmenu-2 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 18.94px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .fashmenu-2 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid black;
+    padding-bottom: 3px;
+  }
+  .newsblock .col-md-12 .newitems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-1 {
+    border: 2px solid black;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    width: 20%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-2 {
+    border: 2px solid black;
+    width: 60%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-3 {
+    width: 20%;
+    border: 2px solid black;
+    height: 500px;
+  }
+  .container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*Центр по главной оси*/
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /*Центр по вспомогательной оси*/
+    position: relative;
+    bottom: 260px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+  .container .block1 {
+    width: 25%;
+  }
+  .container .block1 div {
+    z-index: 2;
+    position: absolute;
+    top: 139px;
+    left: 45px;
+    font: 16px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block1 img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 20px 10px 0px;
+  }
+  .container .block1 .stek {
+    width: 100%;
+    height: 183px;
+  }
+  .container .block2 {
+    width: 50%;
+    position: relative !important;
+  }
+  .container .block2 div {
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    font: 26px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block2 div p {
+    font: 16px Montserrat-Bold;
+    color: #2d2b27;
+    position: relative;
+    top: 30px;
+  }
+  .container .block2 span {
+    width: 100% !important;
+    background: url('../images/new.png') no-repeat;
+    height: 50px;
+    color: transparent;
+    position: absolute;
+    left: 475px;
+    top: 40px;
+  }
+  .container .block2 img {
+    width: 100%;
+    height: 512px;
+    padding: 10px 0px;
+  }
+  .container .block2 a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    position: absolute;
+    left: 67px;
+    bottom: 233px;
+  }
+  .container .block3 {
+    width: 25%;
+  }
+  .container .block3 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 20px;
+  }
+  .container .fashbord {
+    width: 100%;
+    height: 400px;
+    background: url('../images/fashionfon-2.jpg') no-repeat;
+    margin: 0 auto;
+    margin-bottom: 400px;
+  }
+  .container .fashbord .col-md-12 {
+    text-align: center;
+  }
+  .container .fashbord .col-md-12 h3 {
+    color: #2d2b27;
+    font: 26px Montserrat-SemiBold;
+  }
+  .container .fashbord .col-md-12 h6 {
+    color: #2d2b27;
+    font: 14px Montserrat-Regular;
+  }
+  .container .fashbord .col-md-12 a button {
+    width: 245px;
+    height: 60px;
+    color: #e8e5e5;
+    font: 12px Montserrat-Regular;
+    border: 3px solid #000000;
+    border-radius: 33px 33px;
+    background: #000000;
+  }
+  .container .fashbord .col-md-12 a button:hover {
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+    border: 3px solid #000000;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fashmenu-3 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 3;
+  }
+  .fashmenu-3 .col-md-12 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 35px;
+  }
+  .fashmenu-3 .col-md-12 ul li {
+    list-style-type: none;
+  }
+  .fashmenu-3 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 18.94px Montserrat-SemiBold;
+    color: #2d2b27;
+    margin: 20px;
+  }
+  .fashmenu-3 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .menutext .col-md-12 h4 {
+    text-align: center;
+    margin-bottom: 70px;
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .discounttext {
+    position: absolute;
+    right: 9.14px;
+    bottom: 240px;
+    font: 37.66px Montserrat-ExtraBold;
+    color: #ffffff;
+  }
+  .discounttext h5 {
+    font: 20.89px opensans-regular;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .countdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    left: 545px;
+    top: 245px;
+    text-align: center;
+    z-index: 1;
+  }
+  .countdown .discounts {
+    position: absolute;
+    right: 179.14px;
+    bottom: 370px;
+  }
+  .countdown .discounts b s {
+    font: 21.86px Montserrat-Regular;
+    color: #ffffff;
+  }
+  .countdown .discounts b {
+    font: 38.26px Montserrat-Bold;
+    color: #ffffff;
+  }
+  .countdown .discounts a {
+    text-decoration: none;
+    outline: none;
+  }
+  .countdown .discounts a button {
+    width: 125px;
+    height: 45px;
+    background: #000000;
+    font: 12px Montserrat-Regular;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    border-radius: 22px 22px;
+    outline: none;
+  }
+  .countdown .discounts button:hover {
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+    -webkit-transition: 0.86s;
+    transition: 0.86s;
+  }
+  .countdown .countdown-number {
+    background: #ffffff;
+    width: 82px;
+    margin: 10px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+    border-radius: 17px 17px;
+  }
+  .countdown .countdown-number .countdown-time {
+    font: 38.22px Montserrat-SemiBold;
+  }
+  .countdown .countdown-number .countdown-time .countdown-text {
+    font: 11.04px Montserrat-SemiBold;
+  }
+  .fashfirstslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 2420px;
+  }
+  .fashfirstslider .col-md-12 h4 {
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 h6 {
+    letter-spacing: 3px;
+    font: 14px Montserrat-Regular;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 {
+    text-align: center;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border: 3px solid #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    border: 3px solid #000000;
+    font: bold 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashsecondslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+  }
+  .fashsecondslider .col-md-12 {
+    text-align: center;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .contentbut {
+    margin-top: 70px;
+  }
+  .contentbut a {
+    -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    display: block;
+    margin: 20px auto;
+    max-width: 173px;
+    text-decoration: none;
+    border-radius: 32px;
+    padding: 20px 30px;
+    font: bold 14px Montserrat-Regular;
+    letter-spacing: 0px;
+  }
+  .contentbut a.button {
+    color: #000000;
+    -webkit-box-shadow: #d9c8aa 0 0px 0px 3px inset;
+            box-shadow: #d9c8aa 0 0px 0px 3px inset;
+  }
+  .contentbut a.button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    -webkit-box-shadow: #000000 0 0px 0px 40px inset;
+            box-shadow: #000000 0 0px 0px 40px inset;
+  }
+  .fashboard-3 {
+    position: relative;
+    top: 80px;
+  }
+  .fashboard-3 .col-md-10 {
+    background: url('../images/fashbord-2.jpg') no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 100% !important;
+    height: auto;
+    padding: 0px 0px;
+  }
+  .fashboard-3 .col-md-10 .fonboard {
+    width: 100%;
+    height: 230px;
+    background: rgba(95, 97, 102, 0.69);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .fashboard-3 .col-md-10 .fonboard span {
+    margin: 0px auto;
+    text-align: center;
+    line-height: 1px !important;
+  }
+  .fashboard-3 .col-md-10 .fonboard span h4 {
+    color: #2d2b27;
+    margin: 2px;
+    line-height: 50px;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid #171717;
+    border-radius: 32px 32px;
+    background: #171717;
+    text-decoration: none;
+    color: #ffffff;
+    font: 14.24px Montserrat-Regular;
+    text-align: center;
+  }
+  .fashboard-3 .col-md-10 .fonboard span p {
+    font: 600 16.21px Montserrat-Regular;
+    letter-spacing: 1.4px;
+    line-height: 56px !important;
+    color: #1a1a1a;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a:hover {
+    background-position: 0 0;
+    background: rgba(95, 97, 102, 0);
+    -webkit-transition: 0.67s;
+    transition: 0.67s;
+    color: #000000;
+    font: bold 14.24px Montserrat-Regular;
+  }
+  .fashboard-3 .fonboard:hover {
+    background: rgba(93, 105, 136, 0);
+    color: #000000;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3900px;
+  }
+  .fashthirdslider .col-md-12 {
+    text-align: center;
+  }
+  .fashthirdslider .col-md-12 h4 {
+    color: #2d2b27;
+    font: 600 26px Montserrat-SemiBold;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    line-height: 1px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1,
+  .fashthirdslider .col-md-12 section .slimage2,
+  .fashthirdslider .col-md-12 section .slimage3,
+  .fashthirdslider .col-md-12 section .slimage4 {
+    width: 100%;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p,
+  .fashthirdslider .col-md-12 section .slimage2 p,
+  .fashthirdslider .col-md-12 section .slimage3 p,
+  .fashthirdslider .col-md-12 section .slimage4 p {
+    outline: none;
+    width: 75%;
+    height: auto;
+    background: #ffffff;
+    margin: 0 auto;
+    font: 17.79px Montserrat-SemiBold;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 0.2px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 span,
+  .fashthirdslider .col-md-12 section .slimage2 span,
+  .fashthirdslider .col-md-12 section .slimage3 span,
+  .fashthirdslider .col-md-12 section .slimage4 span {
+    font: 14px OpenSansItalic;
+    color: #929292;
+    line-height: 35px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p:hover,
+  .fashthirdslider .col-md-12 section .slimage2 p:hover,
+  .fashthirdslider .col-md-12 section .slimage3 p:hover,
+  .fashthirdslider .col-md-12 section .slimage4 p:hover {
+    color: #5e5e5e !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase,
+  .fashthirdslider .col-md-12 section .slimage2 .increase,
+  .fashthirdslider .col-md-12 section .slimage3 .increase,
+  .fashthirdslider .col-md-12 section .slimage4 .increase {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage2 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage3 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage4 .increase:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .fashfooter {
+    margin-top: 760px;
+    background: #f7f7f7;
+  }
+  .fashfooter .col-md h4 {
+    text-align: center;
+    font: 15px Montserrat-Bold;
+    line-height: 40px;
+  }
+  .fashfooter .col-md ul li {
+    list-style-type: none;
+    font: 14px montserratlight;
+    color: #727272;
+    line-height: 25px;
+  }
+  .fashfooter span {
+    font: 14px Times New Roman;
+  }
+  .fashfooter span p {
+    color: #afafaf;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    display: inline;
+  }
+  .fashfooter span .fontfooter {
+    color: #636363 !important;
+    font: bold 13px montserratlight;
+  }
+  .titlefooter .col-md-12 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .titlefooter .col-md-12 h6 {
+    font: 18px Times New Roman;
+    color: #727272;
+  }
+  .titlefooter .col-md-12 h3 a {
+    color: #000000;
+    font: 28.3px Montserrat-ExtraBold;
+    text-decoration: none;
+  }
+  .titlefooter .col-md-12 h5 {
+    font: bold 14px montserratlight;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .titlefooter h3:hover {
+    letter-spacing: 10px;
+    -webkit-transition: 2s;
+    transition: 2s;
+    color: #3b3a3a;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .container-fluid {
+    max-height: 100%;
+  }
+  .container-fluid .lineheader {
+    background: #e8e5e5;
+    opacity: 0.9;
+    height: auto;
+    width: 100%;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    position: fixed;
+    top: 0px;
+  }
+  .container-fluid .lineheader .fashlogo {
+    -webkit-transition: 1.4s;
+    transition: 1.4s;
+  }
+  .container-fluid .lineheader .fashlogo h3 {
+    color: #000000 !important;
+    font: 28.3px Montserrat-ExtraBold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .container-fluid .lineheader .fashlogo h6 {
+    color: #000000;
+    font: 12px Montserrat-Regular;
+    line-height: 0px;
+    letter-spacing: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: fashlogo 4s;
+            animation: fashlogo 4s;
+  }
+  .fashmenu span ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fashmenu span ul li {
+    list-style-type: none;
+  }
+  .fashmenu span ul li a {
+    margin: 20px;
+    color: #000000;
+    font: 12px montserrat;
+    text-decoration: none;
+    -webkit-transition: 0.65s !important;
+    transition: 0.65s !important;
+    line-height: 30px;
+  }
+  .fashmenu span ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .fushheadericon ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 8px;
+  }
+  .fushheadericon ul li {
+    list-style-type: none;
+  }
+  .fushheadericon ul li a {
+    text-decoration: none;
+  }
+  .fonheader {
+    background: url('../images/fashionfon-1.jpg') no-repeat;
+    background-size: 100% 100% !important;
+    height: auto;
+    position: relative;
+    top: 152px;
+  }
+  .fonheader .col-md-1 {
+    position: absolute;
+    right: 350px;
+  }
+  .fonheader .col-md-1 ul {
+    position: absolute;
+    top: 300px;
+    left: 3.5px;
+    line-height: 50px;
+  }
+  .fonheader .col-md-1 ul li {
+    list-style-type: none;
+  }
+  .fonheader .col-md-1 .angle {
+    position: relative;
+    bottom: 150px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 323px;
+  }
+  .textheader {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .textheader .animart {
+    font: 28.74px Montserrat-SemiBold;
+    color: #171717;
+    -webkit-animation: animart 4s;
+            animation: animart 4s;
+    position: relative;
+    bottom: 260px;
+    width: 34%;
+  }
+  .textheader span .arttext {
+    color: #e2e4e5;
+  }
+  .textheader span a {
+    color: #171717;
+    position: relative;
+    right: 80px;
+    top: 90px;
+    white-space: normal;
+    text-decoration: none;
+    letter-spacing: 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .textheader span a img {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .textheader span .arttext:hover {
+    color: #313a40;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .textheader p {
+    z-index: 4;
+    position: absolute;
+    bottom: 100px;
+    text-align: left !important;
+    font: 18px montserrat;
+    width: 47%;
+  }
+  .textheader p b {
+    font-size: 22px;
+  }
+  .textheader p a img {
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    border: 2.1px solid #000000;
+  }
+  .textheader p a img:hover {
+    background: #000000;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .textheader p span {
+    float: left !important;
+    font: 14px opensans-regular;
+  }
+  .textheader p a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    z-index: 0;
+  }
+  @-webkit-keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes animart {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fashlogo {
+    from {
+      opacity: -0.1;
+      letter-spacing: -50px;
+      text-shadow: 1px 1px 40px #000000, 0 0 25px #000000;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .feshslide {
+    position: relative !important;
+    top: 152px;
+  }
+  .feshslide .fon {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 370px;
+  }
+  .feshslide .fon img {
+    max-width: 50% !important;
+  }
+  .fashmenu-2 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 660px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+  }
+  .fashmenu-2 .col-md-12 ul {
+    z-index: 2;
+    display: inline-block;
+  }
+  .fashmenu-2 .col-md-12 ul li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px;
+  }
+  .fashmenu-2 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 12px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .fashmenu-2 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.47s !important;
+    transition: 0.47s !important;
+    border-bottom: 5px solid black;
+    padding-bottom: 3px;
+  }
+  .newsblock .col-md-12 .newitems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-1 {
+    border: 2px solid black;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    width: 20%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-2 {
+    border: 2px solid black;
+    width: 60%;
+  }
+  .newsblock .col-md-12 .newitems .card-block-3 {
+    width: 20%;
+    border: 2px solid black;
+    height: 500px;
+  }
+  .container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*Центр по главной оси*/
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    /*Центр по вспомогательной оси*/
+    position: relative;
+    bottom: 260px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+  .container .block1 {
+    width: 25%;
+  }
+  .container .block1 div {
+    z-index: 2;
+    position: absolute;
+    top: 39px;
+    left: 10px;
+    font: 16px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block1 img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 20px 10px 0px;
+  }
+  .container .block1 .stek {
+    width: 100%;
+    height: 183px;
+  }
+  .container .block2 {
+    width: 50%;
+    position: relative !important;
+  }
+  .container .block2 div {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    font: 22px Montserrat-Bold;
+    color: #2d2b27;
+  }
+  .container .block2 div p {
+    font: 16px Montserrat-Bold;
+    color: #2d2b27;
+    position: relative;
+    top: 30px;
+  }
+  .container .block2 span {
+    width: 100% !important;
+    background: url('../images/new.png') no-repeat;
+    height: 50px;
+    color: transparent;
+    position: absolute;
+    left: 475px;
+    top: 40px;
+  }
+  .container .block2 img {
+    width: 100%;
+    height: 512px;
+    padding: 10px 0px;
+  }
+  .container .block2 a button {
+    margin-top: 15px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    position: absolute;
+    left: 7px;
+    bottom: 213px;
+  }
+  .container .block2 button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #000000;
+    font: bold 12px Montserrat-Regular;
+    position: absolute;
+    left: 7px;
+    bottom: 213px;
+    border: 2px solid black;
+  }
+  .container .block3 {
+    width: 25%;
+  }
+  .container .block3 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 20px;
+  }
+  .container .fashbord {
+    max-width: 100%;
+    height: 460px;
+    background: url('../images/fashionfon-2.jpg') no-repeat;
+    background-size: 100% 50%;
+    margin: 0 auto;
+    margin-bottom: 400px;
+  }
+  .container .fashbord .col-md-12 {
+    text-align: right;
+  }
+  .container .fashbord .col-md-12 h3 {
+    color: #2d2b27;
+    font: 26px Montserrat-SemiBold;
+  }
+  .container .fashbord .col-md-12 h6 {
+    color: #2d2b27;
+    font: 14px Montserrat-Regular;
+  }
+  .container .fashbord .col-md-12 a button {
+    width: 185px;
+    height: 60px;
+    color: #e8e5e5;
+    font: 16px Montserrat-Regular;
+    border: 3px solid #000000;
+    border-radius: 33px 33px;
+    background: #000000;
+  }
+  .container .fashbord .col-md-12 button:hover {
+    background: transparent;
+    color: #000000;
+    font-weight: bold;
+  }
+  .fashmenu-3 .col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 450px;
+    z-index: 3;
+  }
+  .fashmenu-3 .col-md-12 ul {
+    width: 30%;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .fashmenu-3 .col-md-12 ul li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+  }
+  .fashmenu-3 .col-md-12 ul li a {
+    text-decoration: none;
+    font: 12px Montserrat-SemiBold;
+    color: #2d2b27;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  .fashmenu-3 .col-md-12 ul li a:hover {
+    -webkit-transition: 0.67s !important;
+    transition: 0.67s !important;
+    border-bottom: 5px solid #000000;
+    padding-bottom: 3px;
+  }
+  .menutext {
+    position: relative;
+    bottom: 90px;
+  }
+  .menutext .col-md-12 h4 {
+    text-align: center;
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+  }
+  .discounttext {
+    position: absolute;
+    right: 9.14px;
+    bottom: 240px;
+  }
+  .discounttext h3 {
+    font: 22.66px Montserrat-ExtraBold;
+    color: #ffffff;
+  }
+  .discounttext h5 {
+    font: 14.89px opensans-regular;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .countdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    left: 295px;
+    top: 275px;
+    text-align: center;
+  }
+  .countdown .discounts {
+    position: absolute;
+    right: 9.14px;
+    bottom: 420px;
+    z-index: 2;
+  }
+  .countdown .discounts b s {
+    font: 21.86px Montserrat-Regular;
+    color: #171717;
+  }
+  .countdown .discounts b {
+    font: 38.26px Montserrat-Bold;
+    color: #171717;
+  }
+  .countdown .discounts a {
+    text-decoration: none;
+    outline: none;
+  }
+  .countdown .discounts a button {
+    width: 125px;
+    margin: 0px;
+    font: 12px Montserrat-Regular;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    border-radius: 17px 17px;
+    outline: none;
+    -webkit-transition: 0.85s;
+    transition: 0.85s;
+  }
+  .countdown .countdown-number {
+    background: #ffffff;
+    width: 60px;
+    height: 55px;
+    border-radius: 5px 5px;
+  }
+  .countdown .countdown-number .countdown-time {
+    font: 24.22px Montserrat-SemiBold;
+  }
+  .countdown .countdown-number .countdown-time .countdown-text {
+    font: 11.04px Montserrat-SemiBold;
+  }
+  .fashfirstslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 3300px;
+  }
+  .fashfirstslider .col-md-12 h4 {
+    font: 26px Montserrat-SemiBold;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 h6 {
+    letter-spacing: 3px;
+    font: 14px Montserrat-Regular;
+    color: #2d2b27;
+    line-height: 5px;
+  }
+  .fashfirstslider .col-md-12 {
+    text-align: center;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-1 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-2 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-3 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-4 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-5 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 {
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button {
+    margin-top: -122px;
+    text-decoration: none !important;
+    background: #000000;
+    border: 3px solid #000000;
+    border-radius: 30px 30px;
+    color: #d3d3d3;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashfirstslider .col-md-12 section .slimage-6 a button:hover {
+    background: transparent;
+    border-radius: 30px 30px;
+    color: #e8e5e5;
+    border: 3px solid #000000;
+    font: 12px Montserrat-Regular;
+    max-width: 100%;
+    height: auto;
+  }
+  .fashsecondslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 230px;
+    margin: 0 auto;
+  }
+  .fashsecondslider .col-md-12 {
+    text-align: center;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-1 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-2 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-3 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-4 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-5 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-6 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-7 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 {
+    text-align: left !important;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a {
+    outline: none;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 a img:hover {
+    -webkit-transition: 2s !important;
+    transition: 2s !important;
+    opacity: 0.69;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p {
+    font-weight: bold;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p b {
+    font: bold 19px montserrat;
+    letter-spacing: 0.2px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p span {
+    font: bold 15px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 3px;
+  }
+  .fashsecondslider .col-md-12 section .slimage-8 p s {
+    font: bold 19px opensans-regular;
+    color: #c9c9c9;
+    letter-spacing: 2.5px;
+  }
+  .contentbut a {
+    -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    display: block;
+    margin: 20px auto;
+    max-width: 173px;
+    text-decoration: none;
+    border-radius: 32px;
+    padding: 20px 30px;
+    font: bold 14px Montserrat-Regular;
+    letter-spacing: 0px;
+  }
+  .contentbut a.button {
+    color: #000000;
+    -webkit-box-shadow: #d9c8aa 0 0px 0px 3px inset;
+            box-shadow: #d9c8aa 0 0px 0px 3px inset;
+  }
+  .contentbut a.button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    -webkit-box-shadow: #000000 0 0px 0px 40px inset;
+            box-shadow: #000000 0 0px 0px 40px inset;
+  }
+  .fashboard-3 {
+    position: relative;
+    bottom: 190px;
+  }
+  .fashboard-3 .col-md-10 {
+    background: url('../images/fashbord-2.jpg') no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 100% !important;
+    height: auto;
+    padding: 0px 0px;
+  }
+  .fashboard-3 .col-md-10 .fonboard {
+    width: 100%;
+    height: 230px;
+    background: rgba(95, 97, 102, 0.69);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .fashboard-3 .col-md-10 .fonboard span {
+    margin: 0px auto;
+    text-align: center;
+    line-height: 1px !important;
+  }
+  .fashboard-3 .col-md-10 .fonboard span h4 {
+    color: #2d2b27;
+    margin: 2px;
+    line-height: 50px;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid #171717;
+    border-radius: 32px 32px;
+    background: #171717;
+    text-decoration: none;
+    color: #ffffff;
+    font: 14.24px Montserrat-Regular;
+    text-align: center;
+  }
+  .fashboard-3 .col-md-10 .fonboard span p {
+    font: 600 16.21px Montserrat-Regular;
+    letter-spacing: 1.4px;
+    line-height: 56px !important;
+    color: #1a1a1a;
+  }
+  .fashboard-3 .col-md-10 .fonboard span a:hover {
+    background-position: 0 0;
+    background: rgba(95, 97, 102, 0);
+    -webkit-transition: 0.67s;
+    transition: 0.67s;
+    color: #000000;
+    font: bold 14.24px Montserrat-Regular;
+  }
+  .fashboard-3 .fonboard:hover {
+    background: rgba(93, 105, 136, 0);
+    color: #000000;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 4500px;
+  }
+  .fashthirdslider .col-md-12 {
+    text-align: center;
+  }
+  .fashthirdslider .col-md-12 h4 {
+    color: #2d2b27;
+    font: 600 26px Montserrat-SemiBold;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    line-height: 1px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1,
+  .fashthirdslider .col-md-12 section .slimage2,
+  .fashthirdslider .col-md-12 section .slimage3,
+  .fashthirdslider .col-md-12 section .slimage4 {
+    width: 100%;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p,
+  .fashthirdslider .col-md-12 section .slimage2 p,
+  .fashthirdslider .col-md-12 section .slimage3 p,
+  .fashthirdslider .col-md-12 section .slimage4 p {
+    outline: none;
+    width: 75%;
+    height: auto;
+    background: #ffffff;
+    margin: 0 auto;
+    font: 17.79px Montserrat-SemiBold;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 0.2px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 span,
+  .fashthirdslider .col-md-12 section .slimage2 span,
+  .fashthirdslider .col-md-12 section .slimage3 span,
+  .fashthirdslider .col-md-12 section .slimage4 span {
+    font: 14px OpenSansItalic;
+    color: #929292;
+    line-height: 35px;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 p:hover,
+  .fashthirdslider .col-md-12 section .slimage2 p:hover,
+  .fashthirdslider .col-md-12 section .slimage3 p:hover,
+  .fashthirdslider .col-md-12 section .slimage4 p:hover {
+    color: #5e5e5e !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase,
+  .fashthirdslider .col-md-12 section .slimage2 .increase,
+  .fashthirdslider .col-md-12 section .slimage3 .increase,
+  .fashthirdslider .col-md-12 section .slimage4 .increase {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .fashthirdslider .col-md-12 section .slimage1 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage2 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage3 .increase:hover,
+  .fashthirdslider .col-md-12 section .slimage4 .increase:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .fashfooter {
+    margin-top: 460px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #f7f7f7;
+  }
+  .fashfooter .col-md {
+    margin: 0 60px;
+  }
+  .fashfooter .col-md h4 {
+    font: 15px Montserrat-Bold;
+    line-height: 40px;
+    text-align: center;
+  }
+  .fashfooter .col-md ul li {
+    list-style-type: none;
+    font: 14px montserratlight;
+    color: #727272;
+    line-height: 25px;
+  }
+  .fashfooter span {
+    font: 14px Times New Roman;
+  }
+  .fashfooter span p {
+    color: #afafaf;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    display: inline;
+  }
+  .fashfooter span .fontfooter {
+    color: #636363 !important;
+    font: bold 13px montserratlight;
+  }
+  .titlefooter .col-md-12 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .titlefooter .col-md-12 h6 {
+    font: 18px Times New Roman;
+    color: #727272;
+  }
+  .titlefooter .col-md-12 h3 a {
+    color: #000000;
+    font: 28.3px Montserrat-ExtraBold;
+    text-decoration: none;
+  }
+  .titlefooter .col-md-12 h5 {
+    font: bold 14px montserratlight;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .titlefooter h3:hover {
+    letter-spacing: 10px;
+    -webkit-transition: 2s;
+    transition: 2s;
+    color: #3b3a3a;
+  }
+}

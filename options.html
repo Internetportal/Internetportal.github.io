@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>clothes</title>
+<link rel="shortcut icon" href="images/fash.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/optionsfash.css" type="text/css">
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+   <style>
+::-webkit-scrollbar {width: 13px;}
+ ::-webkit-scrollbar-track {background: #5f6166;}
+ ::-webkit-scrollbar-thumb {background: #1a1818;border-radius: 40px;}
+.slider {width: 85%;margin: 100px auto; opacity: 1 !important;}
+.slick-slide {margin: 0px 20px; }
+.slick-slide img {width: 100%;  }
+.slick-prev:before,.slick-next:before {color: black;}
+.slick-slide {transition: all ease-in-out .3s;opacity: 1;}
+.slick-active {opacity: 1; transition:2s;}
+.slick-current {opacity: 1;}
+
+   </style>
+  <script type="text/javascript">
+   $(document).on('ready', function() {
+     
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular2").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4
+      });
+      $(".regular3").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+     
+    });
+   
+   
+   
+   
+    $(document).ready(function(){
+  $('.single-item-1').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 3200,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      touchThreshold: 1430,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  });
+
+  $('.single-item-2').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 4200,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      touchThreshold: 1830,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  });
+
+  $('.single-item-3').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 5200,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      touchThreshold: 1330,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  });
+});
+
+
+
+$(document).ready(function(){
+  $('.single-item-2').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 4000,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      touchThreshold: 400,
+      
+  });
+});
+
+
+
+
+$(document).ready(function(){
+  $('.single-item-3').slick({
+      draggable: true,
+      autoplay: true, /* this is the new line */
+      autoplaySpeed: 2000,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      touchThreshold: 1000,
+      
+  });
+});
+
+    $(window).scroll(function(){
+if($(window).scrollTop() > 514){
+    $(".lineheader").css("background-color","#5f6166") }; });
+    $(window).scroll(function(){
+if($(window).scrollTop() > 514){
+    $(".scrollfon").css("background-color","#5f6166") }; });
+</script> 
+   
+</head>
+<div class="container-fluid">
+    <div class="row lineheader">
+            <div class="col-md-2 fashlogo">
+            <h3>FASHION</h3>
+                <h6>TAGLINE</h6>
+            </div>
+            <div class="col-md-8 fashmenu">
+                <span>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#shop">SHOP</a></li>
+                        <li><a href="#clothes">WOMAN</a></li>
+                        <li><a href="#clothes">MAN</a></li>
+                        <li><a href="#clothes">FIND STORES</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div class="col-md-2 fushheadericon">
+                <ul>
+                    <li><a href="#"><img src="images/cart.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/search.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/butfashmenu.png" alt=""></a></li>
+                </ul>
+            </div>
+      </div> 
+    <div class="row fonheader">
+            <div class="col-md-1">
+                <img src="images/vertlinefon.png" alt="">
+                <ul>
+                    <li><a href="https://uk-ua.facebook.com/"><img src="images/facebookicon.png" alt=""></a></li>
+                    <li><a href="https://twitter.com/explore"><img src="images/twittericon.png" alt=""></a></li>
+                    <li><a href="https://www.google.com.ua/?hl=ru"><img src="images/googleicon.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/?hl=ru"><img src="images/instagram.png" alt=""></a></li>
+                </ul>
+                 <div class="angle"><a href="https://www.whatsapp.com/?lang=ru">FOLLOW US</a></div>
+            </div>
+            <div class="col-md-5"></div>
+            <div class="col-md-6 textheader">
+                <h1 class="animart">SUMMER COLLECTION</h1>
+                <span>
+                    <a href="#" class="arttext"><img src="images/arrow-1.png" alt="">PREV</a><br>
+                    <a href="#">NEXT <img src="images/arrow-2.png" alt=""></a>
+                </span>
+                <p>
+                    <b>01</b> MEN'S AND WOMEN'S WEAR <br><br>
+                    <a href="#"><img src="images/icon-1.png" alt=""></a>
+                    <a href="#"><img src="images/icon-2.png" alt=""></a>
+                    <a href="#"><img src="images/icon-3.png" alt=""></a>
+                    <br><br>
+                   <span>
+                        This tape presents women's and 
+                        men's clothing and accessories 
+                        for the season with new discounts, 
+                        there are also clothes shoes for children. 
+                        Welcome to the portal of children's and adult clothes 
+                   </span>
+                   <a href="#"><button type="submit" class="btn btn-link">SHOP NOW</button></a>
+                </p>
+            </div>
+     </div>
+   <div class="row feshslide">
+        <div class="col-md-6">
+        
+        </div>
+        <div class="col-md-6 fon d-flex justify-content-end" id="block1">
+          <div class="discounttext"> 
+              <h3>SPECIAL OFFER <br>OF THE MONTH</h3>
+              <h5>Black long sleeve</h5>
+          </div> 
+          <div id="countdown" class="countdown">
+           
+            <div class="discounts"><b><s>105$</s></b>&ensp;<b>65$</b><a href="#">&emsp;<button>SHOP NOW</button></a></div>
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+              
+              <span class="countdown-text">Hours</span>
+            </div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <span class="countdown-text">Minutes</span>
+            </div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <span class="countdown-text">Seconds</span>
+            </div>
+         </div>
+            <img src="images/imagebg.png" alt="">
+            <img src="images/bg.png" alt="">
+                 
+            
+        </div>
+   </div>
+   <div class="row fashmenu-2">
+       <div class="col-md-12">
+           <ul>
+               <li><a href="#">All</a></li>
+               <li><a href="#">spring-summer</a></li>
+               <li><a href="#">sweatshirt</a></li>
+               <li><a href="#">sneakers</a></li>
+               <li><a href="#">gadgets</a></li>
+               <li><a href="#">outdoor</a></li>
+           </ul>
+       </div>
+   </div>
+   <div class="container">
+        <div class="block1"><div>BY TO GET<br>UP 50% OFF</div>
+            <img src="images/cardfash-1.png" alt="card" class="img-fluid">
+            <img src="images/cardfash-1-2.png" alt="" class="img-fluid stek">
+            
+        </div>
+        <div class="block2">
+          <div><p>Winter Jacket</p><br>WINTAGE LOOK <br>FOR WOMEN</div><span>news</span>
+            
+          <img src="images/maincardfash.jpg" alt="card" class="img-fluid">
+          <a href="#"><button type="button" class="btn btn-link">SHOP NOW</button></a>
+        </div>
+        <div class="block3">
+            <img src="images/cardfash.png" alt="" class="img-fluid">
+            <img src="images/cardfash-4.png" alt="" class="img-fluid">
+           
+        </div>
+   </div><br>
+   <div class="container">
+        <div class="row fashbord">
+            <div class="col-md-12" >
+                <img src="" alt="" class="img-fluid">
+                <h3>WE OFFER BRAND NEW STYLES</h3>
+                <h6>SING UP NOW AND GET 50% OFF</h6>
+               <a href="#"> <button type="submit" class="btn btn-secondary">SEE FULL COLLECTION</button></a>
+            </div>
+        </div>
+   </div>
+               <div class="row fashfirstslider">
+                <div class="col-md-12">
+                     <h4 id="clothes">PRODUCT TYPES</h4><br>
+                     <h6>up to 30% discount</h6>
+                </div>
+                    <div class="col-md-12">
+                        <section class="single-item-1 regular slider nexto" >
+                              <div class="slimage-1">
+                                <img src="images/slidefash-1.png" alt="" class="img-fluid">
+                                <a href="https://www.bonprix.ua/kategoriya/2/muzhchina/"><button type="button" class="btn btn-link">SHOP MEN</button></a>
+                              </div>
+                              <div class="slimage-2">
+                                <img src="images/slidefash-2.png" alt="" class="img-fluid">
+                                <a href="https://www.bonprix.ua/kategoriya/1/zhenshchina/"><button type="button" class="btn btn-link">SHOP WOMEN</button></a>
+                              </div>
+                              <div class="slimage-3">
+                                <img src="images/slidefash-3.png" alt="" class="img-fluid">
+                                <a href="https://kasta.ua/market/detskaya-odezhda/"><button type="button" class="btn btn-link">SHOP KIDS</button></a>
+                              </div>
+                              <div class="slimage-4">
+                                <img src="images/slidefash-3.png" alt="" class="img-fluid">
+                                <a href="https://kasta.ua/market/detskaya-odezhda/"><button type="button" class="btn btn-link">SHOP KIDS</button></a>
+                              </div>
+                              <div class="slimage-5">
+                                <img src="images/slidefash-2.png" alt="" class="img-fluid">
+                                <a href="https://www.bonprix.ua/kategoriya/2/muzhchina/"><button type="button" class="btn btn-link">SHOP MAN</button></a>
+                              </div>
+                              <div class="slimage-6">
+                                <img src="images/slidefash-1.png" alt="" class="img-fluid">
+                                <a href="https://kasta.ua/market/detskaya-odezhda/"><button type="button" class="btn btn-link">SHOP KIDS</button></a>
+                              </div>
+                        </section>
+                    </div>
+              </div>
+             
+  <div class="row menutext">
+        <div class="col-md-12">
+          <h4 id="shop">FEATURED PRODUCTS</h4>
+        </div>
+  </div>
+  <div class="row fashmenu-3">
+        <div class="col-md-12">
+          <ul>
+            <li>
+              <a href="#">All</a>
+              <a href="#">spring-summer</a>
+              <a href="#">sweartshirt</a>
+              <a href="#">sneakers</a>
+              <a href="#">gadgets</a>
+              <a href="#">outdoor</a>
+            </li>
+          </ul>
+        </div>
+  </div>
+  <div class="row fashsecondslider">
+     <div class="col-md-12">
+            <section class="single-item-2 regular2 slider" >
+                  <div class="slimage-1" ><span><a href="https://www.farfetch.com/ua/shopping/men/gucci/blazer-2/items.aspx" class="ste"><img src="images/foto.jpg" alt="" class="img-fluid"> </a></span>
+                      <br> <p><b>Ted Baker Mens Light</b><br><span>Gucci</span><br>$70 &#8195;&#8195;&#8195; <s>$120</s></p>
+                  </div>     
+                  <div class="slimage-2"><a href="https://www.525america.com/"><img src="images/slidefash-2-2.png" alt="" class="img-fluid"></a>
+                      <br> <p class="slimage-2"><b>sweatshirt</b><br><span>525 america</span><br>$110 &#8195;&#8195;&#8195; <s>$170</s></p>
+                  </div>
+                  <div class="slimage-3"><a href="https://shopsy.com.ua/svitery/yumi"><img src="images/slidefash-2-3.png" alt="" class="img-fluid"></a>
+                     <br>  <p class="slimage-3"><b>sweatshirt</b><br><span>YUMI</span><br>$75 &#8195;&#8195;&#8195; <s>$100</s></p>
+                  </div>
+                  <div class="slimage-4"><a href="https://shopsy.com.ua/sportivnye-bryuki/befree?sort=popular"><img src="images/slidefash-2-4.png" alt="" class="img-fluid"></a>
+                      <br> <p class="slimage-4"><b>pants</b><br><span>befree</span><br>$165 &#8195;&#8195;&#8195; <s>$240</s></p>
+                  </div>
+                  <div class="slimage-5"><a href="https://prom.ua/p799445808-tommy-hilfiger-futbolka.html"><img src="images/slidefash-2-1-3.png" alt="" class="img-fluid"></a>
+                      <br> <p class="slimage-5"><b>teneca</b><br><span>Tommy Hilfiger</span><br>$115 &#8195;&#8195;&#8195; <s>$146</s></p>
+                  </div>
+                  
+                  <div class="slimage-6"><a href="https://shopsy.com.ua/svitery/yumi"><img src="images/slidefash-2-3.png" alt="" class="img-fluid"></a>
+                      <br> <p class="slimage-6"><b>sweatshirt</b><br><span>YUMI</span><br>$75 &#8195;&#8195;&#8195; <s>$100</s></p>
+                  </div>
+                  <div class="slimage-7"><a href="https://www.525america.com/"><img src="images/slidefash-2-2.png" alt="" class="img-fluid"></a>
+                      <br> <p class="slimage-7"><b>sweatshirt</b><br><span>525 america</span><br>$75 &#8195;&#8195;&#8195; <s>$100</s></p>
+               </div>
+                  <div class="slimage-8"><a href="https://www.farfetch.com/ua/shopping/men/gucci/blazer-2/items.aspx"><img src="images/foto.jpg" alt="" class="img-fluid"></a>
+                      <br><p class="slimage-8"><b>Ted Baker Mens Light</b><br><span>Gucci</span><br>$70 &#8195;&#8195;&#8195; <s>$120</s></p>
+                  </div>
+            </section>
+            <div class="contentbut">
+                  <a href="#" class="button">Hover Me!</a>
+            </div>
+        </div>
+  </div>
+
+  <div class="row fashboard-3">
+    <div class="col-md"></div>
+    <div class="col-md-10">
+      <div class="fonboard">
+        <span>
+           <h4>SUBSCRIBE TO OUR NEWSLETTER</h4><br><p>SIGN UP NOW AND GET 75% OFF</p>
+           <a href="#" class="block">SIGN UP NOW</a>
+        </span>
+      </div>
+    </div>
+    <div class="col-md"></div>
+  </div>
+            <div class="row fashthirdslider">
+              <div class="col-md-12"><h4>OUR BLOGS & NEWS</h4><br></div>
+              <div class="col-md-12">
+                    <section class="single-item-3 regular3 slider" >
+                          <div class="slimage1">
+                            <img src="images/slidefash-3-1.png" alt="" class="img-fluid increase">
+                            <p> <br> THE 15 SECRETS ABOUT FASHION PEOPLE <br>
+                                <span>January 12, 2020 by admin</span>
+                            </p>
+                          </div>
+                          <div class="slimage2">
+                            <img src="images/slidefash-3-3.png" alt="" class="img-fluid increase">
+                            <p><br>  THE 15 SECRETS ABOUT FASHION PEOPLE <br>
+                               <span>January 14, 2020 by admin</span>
+                            </p>
+                          </div>
+                          <div class="slimage3">
+                            <img src="images/slidefash-3-3.png" alt="" class="img-fluid increase">
+                            <p><br>THE 15 SECRETS ABOUT FASHION PEOPLE <br>
+                                <span>January 17, 2020 by admin</span>
+                            </p>
+                          </div>
+                          <div class="slimage4">
+                            <img src="images/slidefash-3-1.png" alt="" class="img-fluid increase">
+                            <p> <br> THE 15 SECRETS ABOUT FASHION PEOPLE <br>
+                                 <span>January 19, 2020 by admin</span>
+                            </p>
+                          </div>
+                    </section>
+               </div>
+            </div>
+  <div class="row fashfooter">
+        <div class="col-md">
+            <h4>INFORMATION</h4>
+            <ul><li>The brand</li><li>Local stores</li><li>Customer service</li><li>Privacy & cookies</li><li>Site map</li></ul>
+        </div>
+        <div class="col-md">
+            <h4>MY PROFILE</h4>
+            <ul><li>Getting started</li><li>FAQs</li><li>Buyling Guide</li><li>Order Returns</li><li>Affilate Program</li></ul>
+        </div>
+        <div class="col-md">
+            <h4>YOUR ACCOUNT</h4>
+            <ul><li>Shipping & returns</li><li>Secure shopping</li><li>Testimonials</li><li>Award winning</li><li>Ethical trading</li></ul>  
+        </div>
+        <div class="col-md">
+            <h4>LOOK BOOK</h4>
+            <ul><li>Getting started</li><li>FAQs</li><li>Buyling Guide</li><li>Order Returns</li><li>Affilate Program</li></ul>
+        </div>
+        <div class="col-md">
+            <h4>CONTACT DETAILS</h4>
+            <span>Telephone:<p>0123-456-789</p></span>
+            <span>Email:<p>free@psd.in.ua</p></span>
+            <span><br>Head Office:<br><p class="fontfooter">245 House <br>
+            Main Street London.456789
+            </p></span>
+        </div>
+</div>
+        <div class="row titlefooter">
+          <div class="col-md-12">
+            <h6>&copy; Copyright e-commerce 1.0. 2022 by PSD.IN.UA</h6>
+                                  <h3><a href="#">FASHION</a></h3>
+                                <h5>TAGLINE</h5>
+          </div>
+        </div>
+
+</div>  
+ 
+ <script>
+   function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  
+  return {
+    'total': t,
+    
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+ 
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+   
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline="April 04 2020 00:00:00 GMT+0300"; //for Ukraine
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+initializeClock('countdown', deadline);
+</script>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  
+   </body>
+</html>
